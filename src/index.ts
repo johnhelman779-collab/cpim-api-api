@@ -16,7 +16,7 @@ app.use(
 );
 
 app.get("/health", (_req, res) => {
-  res.json({ service: "cpim-api-api", status: "ok" });
+  res.json({ service: "cpim-api-api", status: "ok", version: "0.1.1" });
 });
 
 /** Express strips the mount path; restore upstream path prefixes. */

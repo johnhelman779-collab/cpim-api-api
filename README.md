@@ -37,3 +37,11 @@ Listens on `http://localhost:3000`.
 - `AUTH_URL` (default `http://localhost:3001`)
 - `APP_URL` (default `http://localhost:3002`)
 - `EXCEPTIONS_URL` (default `http://localhost:3004`)
+
+## Status
+
+v0.1.1 — active development (API gateway).
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for this service’s 3-year track.
