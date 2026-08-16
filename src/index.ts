@@ -4,7 +4,7 @@ import { createProxyMiddleware } from "http-proxy-middleware";
 import { requireAuth } from "./middleware/auth";
 
 const app = express();
-const port = Number(process.env.PORT ?? 3000);
+const port = Number(process.env.PORT ?? 4000);
 const authUrl = process.env.AUTH_URL ?? "http://localhost:3001";
 const appUrl = process.env.APP_URL ?? "http://localhost:3002";
 const exceptionsUrl = process.env.EXCEPTIONS_URL ?? "http://localhost:3004";
